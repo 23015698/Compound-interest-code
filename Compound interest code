@@ -1,0 +1,61 @@
+import java.util.scanner;
+public class CompoundInterest {
+
+public static void main (String[] args){
+
+Scanner input = new Scanner (System in);
+
+//A=p(1+r/n)^nt
+
+System.out.print("Enter the principal amount:");
+double principal=input.nextDouble();
+
+System.out.print("Enter the annual interest rate:");
+double interest=input.nextDouble();
+
+System.out.print("Enter the period:");
+double period=input.nextDouble();
+
+double compound interest=principal*Math.pow((1+interest/100),period;
+
+System.out.print("compound interest is"+ (compoud interest-principa));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
